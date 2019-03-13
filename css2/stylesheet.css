@@ -1,0 +1,13 @@
+
+.main div {
+	border:2px solid red;
+	margin-left: 50%;
+}
+
+#slideshow .hide-cursor{
+    cursor: none;
+}
+
+#selector {
+    cursor: none;
+}

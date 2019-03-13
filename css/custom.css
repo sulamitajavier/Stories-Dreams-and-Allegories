@@ -1,0 +1,108 @@
+.play img{
+	width: 100%;
+}
+
+.title {
+
+	width: 25%;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+
+h1 {
+	font-family: alverata, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2em;
+text-align: center;
+text-decoration: underline;
+opacity: 100%;
+}
+
+
+main {
+		cursor: url("img/next.svg") 2 15,pointer;
+}
+
+
+p {
+font-family: alverata-informal, serif;
+font-weight: 400;
+font-style: normal;
+font-size:1em;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+
+
+.time {
+	
+	width: 30%;
+
+}
+
+iframe {
+	margin-left: 20%;
+	margin-top: -2%;
+	
+	
+}
+
+.sub  {
+	font-size: 0.8em;
+	margin-left: 20%;
+	margin-top: 5%;
+	
+	
+
+
+}
+
+
+.play {
+	
+	height: 100em;
+	width:70%;
+	padding: 0;
+	margin-left: 16%;
+}
+
+
+
+.menu-item {
+    width: 90%;
+    position: absolute;
+    perspective: 300px;
+    perspective-origin: bottom;
+    left: 5%;
+    height: 100px;
+}
+
+.menu-item__preview {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform: rotateX(-8deg);
+}
+
+.menu-item__shadow {
+    box-shadow: 0 -20px 50px 0 rgba(0,0,0,.4);
+    pointer-events: none;
+    position: fixed;
+    display: none;
+    bottom: -30px;
+    left: -1rem;
+    width: 120%;
+    height: 20px;
+    z-index: 9;
+}
+
+::selection {
+  background: #ffb7b7;  
+}
+
+button:active{
+	border: 2px solid pink;
+	text-decoration: none;
+}

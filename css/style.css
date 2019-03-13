@@ -1,0 +1,212 @@
+.title {
+
+	width: 25%;
+	margin-left: 50%;
+	margin-top: 5%;
+	font-size: 1em;
+	color:black;
+	margin: 0 auto;
+	font-family: alverata-informal, serif;
+text-decoration: underline;
+}
+
+h1 {
+	font-family: alverata, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2em;
+text-align: center;
+text-decoration: underline;
+opacity: 100%;
+}
+
+::selection {
+  background: #ffb7b7;  
+}
+
+
+
+button:active{
+	border: 2px solid pink;
+	text-decoration: none;
+}
+
+
+.sub {
+	font-size: 0.8em;
+	margin-left: 20%;
+	margin-top: 5%;
+
+
+}
+
+iframe {
+	margin-left: 20%;
+	margin-top: -2%;
+	
+	
+}
+ 
+
+.play {
+	
+	height: 100em;
+	width:60%;
+	padding: 0;
+	padding-top: 3%;
+	margin-left: 20%;
+	
+}
+
+
+p {
+	font-family: alverata-informal, serif;
+font-weight: 400;
+font-style: normal;
+font-size:1em;
+}
+
+.drag {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  margin-right: -6.5%;
+  font-family: alverata-informal, serif;
+font-weight: 400;
+font-style: normal;
+font-size:1em;
+}
+
+
+#resizable {
+	
+	width: 50%;
+	margin-left: 30%;
+	
+}
+
+ #resizable img { 
+ 	width: 100%; 
+ 	padding: 1em; }
+
+#box {
+	
+	position: relative;
+	margin-left:60%;
+	margin-top: -20%;
+
+	
+}
+
+#box2 {
+	
+	position: absolute;
+	width: 30%;
+	margin-left:60%;
+	height: 20em;
+	
+
+	
+}
+
+#box .drag {
+	display: inline-block;
+  width: 80px;
+  height: 25px;
+  margin-right: -15.5%;
+font-family: alverata-informal, serif;
+font-weight: 400;
+font-style: normal;
+font-size:1em;
+
+}
+
+
+.img2 {
+	position: absolute;
+	margin-left:35%;
+	margin-top: -9%;
+}
+
+.img3 img{
+	width: 100%;
+	height: 15em;
+	position: relative;
+}
+
+.img4 img{
+	width: 80%;
+	margin-left:120%;
+	
+}
+
+
+#para {
+	
+	height: 20em;
+	width: 33%;
+	margin-top: -25%;
+	margin-left: 2%;
+	position: relative;
+	z-index: -1;
+
+}
+
+#para .drag {
+	display: inline-block;
+  width: 80px;
+  height: 25px;
+  margin-right: -15.5%;
+  font-family: alverata-informal, serif;
+font-weight: 400;
+font-style: normal;
+font-size:1em;
+
+}
+
+button {
+	margin-left: 83%;
+	margin-top: -20%;
+	border: none;
+
+}
+
+h5 { font-family: alverata-informal, serif;
+font-weight: 400;
+font-style: normal;
+font-size:0.7em;
+margin-left: 20%;
+margin-top: -0.1%;
+
+
+}
+
+.uno {
+	z-index: 1;
+	width: 130%;
+	margin-top: -80%;
+	margin-left: -30%;
+
+}
+
+.dos {
+	z-index: -1;
+	width: 110%;
+	margin-left: 70%;
+}
+
+
+.tres {
+	width: 110%;
+	margin-left: -80%;
+}
+
+.cua {
+	width: 110%;
+	margin-left: 80%;
+	
+	margin-top:-200%;
+
+}
+
+
